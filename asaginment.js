@@ -69,7 +69,7 @@ function brickCalculator(floor) {
   let bricks = 0;
   if (floor < 0) {
     const errorMsg =
-      "Invalid floor Input.Please check your floor input and try again.Thank YOu";
+      "Invalid Floor Input.Please check your floor input and try again.Thank You";
     return errorMsg;
   } else if (floor <= 10) {
     bricks = 15 * 1000;
@@ -84,8 +84,8 @@ function brickCalculator(floor) {
     return bricks;
   }
 }
-const bricksNeed = brickCalculator(190);
-console.log(bricksNeed);
+const bricksNeed = brickCalculator(15);
+console.log("Total Bricks: " + bricksNeed);
 
 /**********************
  * Question 3 end
