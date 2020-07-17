@@ -18,7 +18,7 @@ function feetToMile(feet) {
     return miles;
   }
 }
-const fiveFeet = feetToMile(500);
+const fiveFeet = feetToMile(5);
 console.log("Miles: " + fiveFeet);
 
 /******************
@@ -84,7 +84,7 @@ function brickCalculator(floor) {
     return bricks;
   }
 }
-const bricksNeed = brickCalculator(11);
+const bricksNeed = brickCalculator(30);
 console.log("Total Bricks: " + bricksNeed);
 
 /**********************
