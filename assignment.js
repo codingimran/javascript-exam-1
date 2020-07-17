@@ -124,7 +124,7 @@ function tinyFriend(name) {
   };
 }
 
-let findTinyName = tinyFriend([
+const findTinyName = tinyFriend([
   "Imran Khan",
   "GangStar",
   "Sara Soueidan",
