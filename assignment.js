@@ -140,7 +140,6 @@ let findTinyName = tinyFriend([
   "Simon Collison",
   "Veerle Pieters",
   "Cameron Moll",
-  " ",
 ]);
 console.log(findTinyName);
 
