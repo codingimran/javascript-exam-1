@@ -72,7 +72,7 @@ function brickCalculator(floor) {
       "Invalid Floor Input.Please check your floor input and try again.Thank You";
     return errorMsg;
   } else if (floor <= 10) {
-    bricks = 15 * 1000;
+    bricks = floor * (15 * 1000);
     return bricks;
   } else if (floor >= 11 && floor <= 20) {
     floor -= 10;
